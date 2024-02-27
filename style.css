@@ -74,6 +74,14 @@ footer {
   -webkit-text-stroke: .9px #006400;
   text-align: center;
   font-size: 45px;
-  padding-top: 35px
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+.circle {
+  text-align: center;
+}
+hr {
+  height: 10px;
+  background-color:#01352c;
+  border:transparent;
 }
