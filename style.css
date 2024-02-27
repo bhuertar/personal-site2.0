@@ -1,4 +1,35 @@
 body {
     margin:auto;
-    background-color: #e1eacd;
+    background-color: white;
+}
+header {
+  background-color: #e1eacd;
+  height: 85px;
+}
+.name {
+  padding: 30px;
+  padding-left: 80px;
+  width: 150px;
+  color: #006400;
+  font-size: 21px;
+}
+li {
+  display: inline-block;
+  float: right;
+  height: 15px;
+  padding: 25px;
+  margin: 10px;
+}
+ul {
+  margin: auto;
+  padding-right: 100px;
+}
+nav {
+  Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+a {
+  color: #006400;
+}
+a:hover {
+  color: #808000;
 }
