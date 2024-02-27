@@ -33,3 +33,19 @@ a {
 a:hover {
   color: #808000;
 }
+main {
+  background-color: #61b390;
+}
+p {
+  margin: auto;
+}
+img {
+  height: 450px;
+  width: 300px;
+  padding: 40px;
+  margin: 40px;
+  background-color: #bad8b6;
+}
+section {
+  padding-left: 90;
+}
