@@ -46,6 +46,20 @@ img {
   margin: 40px;
   background-color: #bad8b6;
 }
-section {
+.pic {
   padding-left: 90;
+  width:470px
+}
+.one {
+  float: right;
+  padding: 26px;
+  Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-size: 23.40px;
+  color: white;
+  width:661px;
+  -webkit-text-stroke: .9px #006400;
+}
+.two { 
+  font-size: 25px;
+  padding-top: 50px;
 }
