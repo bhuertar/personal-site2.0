@@ -68,3 +68,12 @@ footer {
   height: 85px;
   Font-family: Copperplate, Copperplate Gothic Light, fantasy;
 }
+.a {
+  Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  color:white;
+  -webkit-text-stroke: .9px #006400;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 35px
+}
+}
