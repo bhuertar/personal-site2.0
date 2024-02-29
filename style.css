@@ -58,7 +58,6 @@ a:hover {
 }
 main {
   background-color: var(--body);
-
 }
 p {
   margin: auto;
@@ -69,6 +68,12 @@ img {
   padding: 40px;
   margin: 40px;
   background-color: var(--back);
+}
+img:hover {
+  transition-property: background;
+  transition-duration: 1s;
+  background: var(--hover);
+  transition-timing-function: linear;
 }
 .pic {
   padding-left: 90px;
@@ -103,6 +108,7 @@ footer {
 }
 .circle {
   text-align: center;
+  z-index:auto;
 }
 hr {
   height: 10px;
@@ -155,4 +161,4 @@ hr {
   padding: 40px;
   padding-top: 73pt;
 }
-
+@media screen {
