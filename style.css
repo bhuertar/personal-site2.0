@@ -1,24 +1,47 @@
+:root {
+  --head:#e1eacd;
+  --back: #bad8b6;
+  --body: #61b390;
+  --hover: #808000;
+  --text: #006400;
+  --foot: #01352c;
+}
 body {
-    margin:auto;
-    background-color: white;
+  margin:auto;
+  background-color: white;
 }
 header {
-  background-color: #e1eacd;
+  background-color: var(--head);
   height: 85px;
 }
 .name {
   padding: 30px;
   padding-left: 80px;
   width: 150px;
-  color: #006400;
+  color: var(--text);
   font-size: 21px;
 }
 li {
-  display: inline-block;
+  display: flex;
   float: right;
   height: 15px;
   padding: 25px;
   margin: 10px;
+}
+li:hover{
+  background-color: var(--foot);
+  margin: auto;
+  padding-top: 27pt;
+  height: 18pt;
+  transition: 1s;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+li:nth-child(3n + 3) {
+  background-color: var(--foot);
+  margin: auto;
+  padding-top: 27pt;
+  height: 18pt;
 }
 ul {
   margin: auto;
@@ -28,13 +51,14 @@ nav {
   Font-family: Copperplate, Copperplate Gothic Light, fantasy;
 }
 a {
-  color: #006400;
+  color: var(--text);
 }
 a:hover {
-  color: #808000;
+  color: var(--hover);
 }
 main {
-  background-color: #61b390;
+  background-color: var(--body);
+
 }
 p {
   margin: auto;
@@ -44,11 +68,11 @@ img {
   width: 300px;
   padding: 40px;
   margin: 40px;
-  background-color: #bad8b6;
+  background-color: var(--back);
 }
 .pic {
-  padding-left: 90;
-  width:470px
+  padding-left: 90px;
+  width: 10px;
 }
 .one {
   float: right;
@@ -57,21 +81,21 @@ img {
   font-size: 23.40px;
   color: white;
   width:661px;
-  -webkit-text-stroke: .9px #006400;
+  -webkit-text-stroke: .9px var(--text);
 }
 .two { 
   font-size: 25px;
   padding-top: 50px;
 }
 footer {
-  background-color: #01352c;
+  background-color:var(--foot);
   height: 85px;
   Font-family: Copperplate, Copperplate Gothic Light, fantasy;
 }
 .a {
   Font-family: Copperplate, Copperplate Gothic Light, fantasy;
   color:white;
-  -webkit-text-stroke: .9px #006400;
+  -webkit-text-stroke: .9px var(--text);
   text-align: center;
   font-size: 45px;
   padding-top: 25px;
@@ -82,7 +106,7 @@ footer {
 }
 hr {
   height: 10px;
-  background-color:#01352c;
+  background-color:var(--foot);
   border:transparent;
 }
 .contact{
@@ -92,11 +116,11 @@ hr {
   font-size: 60px;
   color: white;
   -webkit-text-stroke-width: .7px;
-  -webkit-text-stroke-color: #006400;
+  -webkit-text-stroke-color: var(--text);
 }
 .container {
   text-align: center;
-  background-color: #bad8b6;
+  background-color: var(--back);
   width: 335px;
   margin: auto;
   display: flex;
@@ -104,7 +128,7 @@ hr {
   padding: 20px;
   padding-bottom: 48px;
   border-radius: 30px/90px;
-  color:#006400;
+  color:var(--text);
   -webkit-text-stroke-width: .8px;
   justify-content: center;
 }
@@ -127,8 +151,8 @@ hr {
   Font-family: Copperplate, Copperplate Gothic Light, fantasy;
   text-align: center;
   font-size: 25pt;
-  color: #006400;
+  color: var(--text);
   padding: 40px;
-  padding-top: 80pt;
+  padding-top: 73pt;
 }
 
