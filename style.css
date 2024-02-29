@@ -85,3 +85,66 @@ hr {
   background-color:#01352c;
   border:transparent;
 }
+.contact{
+  margin: auto;
+  padding: 20px;
+  text-align:center;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: #006400;
+}
+.container {
+  text-align: center;
+  background-color: #bad8b6;
+  width: 335px;
+  margin: auto;
+  display: flex;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px/90px;
+  color:#006400;
+  -webkit-text-stroke-width: .8px;
+  justify-content: center;
+}
+.form {
+  float: left;
+  margin: auto;
+  padding: 15px;
+  font-size: 1pc
+}
+.line {
+  border-color: black;
+  float: right;
+  margin: 15px;
+}
+.dash {
+  padding: 20pt;
+}
+/* .container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #bad8b6;
+  width: 335px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px/90px;
+  color:white;
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color: #006400;
+}
+.line {
+  border-color: black;
+  float: right;
+  padding: 1.2pt;
+}
+.dash {
+  text-align: center;
+}
+.form {
+  float: left;
+  padding: 1.2pt;
+  font-size: 1.2pc
+} */
